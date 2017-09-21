@@ -1,4 +1,4 @@
-# CLARK Automator
+# Sequence Merger
 
 This set of scripts allow for automation of merge requests via Redmine..
 

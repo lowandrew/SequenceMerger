@@ -1,0 +1,14 @@
+2017-09-21 09:48:40,052 - INFO - [Elapsed time: 0.00] Would you like to set the redmine api key? (y/n)
+2017-09-21 09:48:41,151 - INFO - [Elapsed time: 1.10] Used Redmine API key from the json file.
+2017-09-21 09:48:41,152 - INFO - [Elapsed time: 1.10] Checking for requests matching Issue Status: New and Issue Title: merge
+2017-09-21 09:48:41,488 - INFO - [Elapsed time: 1.44] Found 1 new issue(s)...
+2017-09-21 09:48:41,488 - INFO - [Elapsed time: 1.44] Found a request to run. Subject: Merge. ID: 9877
+2017-09-21 09:48:41,488 - INFO - [Elapsed time: 1.44] Adding to the list of responded to requests.
+2017-09-21 09:55:00,635 - INFO - [Elapsed time: 380.58] [Warning] The automation process had a problem, continuing redmine api anyways.
+2017-09-21 09:55:00,636 - INFO - [Elapsed time: 380.58] [Automation Error Dump]
+Traceback (most recent call last):
+  File "/home/lowa/PycharmProjects/SequenceMerger/SequenceMerger.py", line 147, in respond_to_issue
+    os.rename('mnt/nas/To_Assemble/merge_' + str(issue.id), 'mnt/nas/To_Assemble/merge_' + str(issue.id) + '_Ready')
+FileNotFoundError: [Errno 2] No such file or directory: 'mnt/nas/To_Assemble/merge_9877' -> 'mnt/nas/To_Assemble/merge_9877_Ready'
+
+2017-09-21 09:55:01,197 - INFO - [Elapsed time: 381.15] Waiting for the next check.

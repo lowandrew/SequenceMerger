@@ -1,0 +1,12 @@
+2017-09-21 09:27:16,472 - INFO - [Elapsed time: 2.83] Enter your redmine api key (will be encrypted to file)
+2017-09-21 09:27:25,313 - INFO - [Elapsed time: 11.67] Checking for requests matching Issue Status: New and Issue Title: merge
+2017-09-21 09:27:25,517 - INFO - [Elapsed time: 11.87] Found 1 new issue(s)...
+2017-09-21 09:27:25,518 - INFO - [Elapsed time: 11.87] Found a request to run. Subject: Merge. ID: 9875
+2017-09-21 09:27:25,518 - INFO - [Elapsed time: 11.87] Adding to the list of responded to requests.
+2017-09-21 09:27:28,180 - INFO - [Elapsed time: 14.54] Assigning the issue: 9875 back to the author.
+2017-09-21 09:27:28,546 - INFO - [Elapsed time: 14.90] 
+Message to author - your finishing message back to the author
+
+2017-09-21 09:27:28,546 - INFO - [Elapsed time: 14.90] Completed Response to issue 9875.
+2017-09-21 09:27:28,546 - INFO - [Elapsed time: 14.90] The next request will be processed once available
+2017-09-21 09:27:28,547 - INFO - [Elapsed time: 14.90] Waiting for the next check.

@@ -137,6 +137,9 @@ class Automate(object):
                 shutil.move(fastq, workdir + '/merge_' + str(issue.id))
             # Copy the merged files to merge_Backup
             merged_fastqs = glob.glob(workdir + '/merge_' + str(issue.id) + '/*.fastq.gz')
+            if len(merged_fastqs) == 0:
+                raise FileNotFoundError('Could not find any merged fastq files. The merge script likely failed. '
+                                        'Please ensure that your excel file is properly formatted.')
             print('Copying files to merge_Backup...')
             for fastq in merged_fastqs:
                 shutil.copy(fastq, '/mnt/nas/merge_Backup')
